@@ -1,0 +1,228 @@
+
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Cabecera */
+.header{
+    width: 100%;
+    height: 500px;
+    background: url(img/fondo3.png) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 30px 0 0;
+}
+nav > a{
+    color: #f8dc81;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: 1s ease;
+}
+nav > a:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    transition: 1s ease;
+}
+.wave{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+.cabecera{
+    display: flex;
+}
+.img-header{
+    width: 20%;
+    margin-left: 12%;
+    margin-top: 1%;
+    -webkit-transition-duration: 1s;
+}
+.img-header:hover{
+    width: 25%;
+    margin-left: 12%;
+    margin-top: 1%;
+    -webkit-transition-duration: 1s;
+}
+.img-header > img{
+    width: 100%;
+    height: 100%;
+}
+.letras{
+    text-align: center;
+    margin-left: 10%;
+}
+.letras > h1{
+    text-align: center;
+    margin-top: 20%;
+    color: #fff;
+    font-size: 60px;
+    -webkit-transition-duration: 1s ;
+}
+.letras > h1:hover{
+    color:#f8dc81;
+    -webkit-transform: rotate(360deg);
+}
+/* Cuerpo */
+
+/* Sobre Mi*/
+.sobremi{
+    background-color: #1d1d1d;
+    display: flex;
+}
+.imgsobre{
+    margin-right: 10%;
+    width: 18%;
+    margin-bottom: 3%;
+}
+.imgsobre > img{
+    width: 100%;
+    height: 100%;
+}
+.textsobre{
+    width: 70%;
+    margin-left: 5%;
+}
+.textsobre > h3{
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 30px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+}
+.textsobre > h3:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+}
+
+.textsobre > p{
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #fff;
+    font-size: 20px;
+    -webkit-transition-duration: 1s ;
+}
+.textsobre > p:hover{
+    padding-right: 5%;
+    padding-left: 0%;
+    font-size: 25px;
+}
+
+/* Trabajos */
+.trabajos{
+    background-color: #048b92;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.programacion{
+    display: flex;
+}
+.titulopro{
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 30px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+}
+.titulopro:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+}
+.programasrealizados{
+    padding-left: 2%;
+    padding-right: 10%;
+    
+}
+.programasrealizados>h4{
+    text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+}
+.textorealizado>p{
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 18px;
+}
+.textorealizado>a>img{
+    width: 30%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.utilizados{
+    position: relative;
+}
+
+.utilizados > h4{
+    text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+}
+.imageneslenguajes{
+    position: absolute;
+}
+.imageneslenguajes>img{
+    width: 25%;
+    padding-right: 4%;
+}
+.imagenesentornos{
+    position: absolute;
+    padding-top: 25%;
+}
+.imagenesentornos>img{
+    width: 25%;
+    padding-right: 4%;
+}
+
+
+
+
+
+
+
+/* Contacto */
+.contenedor-contacto{
+    background-color: #d6d2c4;
+}
+.datos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.dato{
+    justify-content: space-evenly;
+    display: flex;
+    width: 20%;
+    height: 30%;
+}
+.dato > img{
+    width: 20%;
+    height: 25%;
+    margin-top: 4%;
+    padding-right: 0px;
+}
+.contenido-texto-dato{
+    padding-top: 10%;
+}
+.contenido-texto-dato > P{
+    font-size: 110%;
+}
+
+/* Footer */
+footer{
+    background-color: #cdc9c3;
+    text-align: center;
+}
