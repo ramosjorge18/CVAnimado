@@ -70,3 +70,48 @@ nav > a:hover{
     color:#f8dc81;
     -webkit-transform: rotate(360deg);
 }
+
+/**/
+.contacta{
+    background-color: #1d1d1d;
+    display: flex;
+}
+.imgcontacta{
+    margin-right: 10%;
+    width: 18%;
+    margin-bottom: 3%;
+}
+.imgcontacta > img{
+    width: 100%;
+    height: 100%;
+}
+.textcontacta{
+    width: 70%;
+    margin-left: 5%;
+}
+.textcontacta > h3{
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 30px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+}
+.textcontacta > h3:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+}
+
+.textcontacta > form{
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #fff;
+    font-size: 20px;
+    -webkit-transition-duration: 1s ;
+}
+.textcontacta > p:hover{
+    padding-right: 5%;
+    padding-left: 0%;
+    font-size: 25px;
+}
