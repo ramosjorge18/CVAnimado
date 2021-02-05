@@ -71,7 +71,9 @@ nav > a:hover{
     -webkit-transform: rotate(360deg);
 }
 
-/**/
+
+
+/*Formulario*/
 .contacta{
     background-color: #1d1d1d;
     display: flex;
@@ -114,4 +116,57 @@ nav > a:hover{
     padding-right: 5%;
     padding-left: 0%;
     font-size: 25px;
+}
+
+/* Redes */
+.redes{
+    background-color: #048b92;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.redes > h2{
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 30px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+}
+.redes > h2:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    color: #f59622;
+    -webkit-transition-duration: 2s  ;
+
+}
+.sociales{
+    display: flex;
+    
+}
+.sociales > div{
+    display: flex;
+    width: 60%;
+    width: 20%;
+    margin-left: 20%;
+   
+}
+.sociales > div > img{
+    width: 50%;
+    padding: 5% 5% 5% 5%;   
+}
+.nombrered> a{
+    color: #fff;
+}
+.nombrered{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 12%;
+    color: #fff;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: #cdc9c3;
+    text-align: center;
 }
