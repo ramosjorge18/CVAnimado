@@ -108,12 +108,18 @@ nav > a:hover{
     color: #fff;
     padding-bottom: 1%;
     text-decoration: underline;
+    font-size: 20px;
 }
 #contacto > form{
     display: flex;
 }
 #contacto >form > div{
     color: #fff;
+    padding-right: 20%;
+    padding-left: 2%;
+}
+#textform{
+    padding-top: 4%;
 }
 
 
