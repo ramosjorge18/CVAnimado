@@ -93,7 +93,7 @@ nav > a:hover{
 }
 .textcontacta > h3{
     text-align: center;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
     font-size: 30px;
     color: #f59622;
     -webkit-transition-duration: 2s  ;
@@ -105,18 +105,6 @@ nav > a:hover{
     -webkit-transition-duration: 2s  ;
 }
 
-.textcontacta > form{
-    padding-right: 10%;
-    padding-left: 10%;
-    color: #fff;
-    font-size: 20px;
-    -webkit-transition-duration: 1s ;
-}
-.textcontacta > p:hover{
-    padding-right: 5%;
-    padding-left: 0%;
-    font-size: 25px;
-}
 
 /* Redes */
 .redes{
