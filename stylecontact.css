@@ -104,6 +104,18 @@ nav > a:hover{
     color: #f59622;
     -webkit-transition-duration: 2s  ;
 }
+#contacto > h3{
+    color: #fff;
+    padding-bottom: 1%;
+    text-decoration: underline;
+}
+#contacto > form{
+    display: flex;
+}
+#contacto >form > div{
+    color: #fff;
+}
+
 
 
 /* Redes */
